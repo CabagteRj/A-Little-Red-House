@@ -1,0 +1,218 @@
+@import '~antd/dist/antd.css';
+
+.book-overlay {
+    position: absolute; 
+    bottom: 0; 
+    background-color: #e33c3c;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0px 3px 15px 3px black;
+
+    p{
+        color: #fff;
+        // font-size: 23px;
+    }
+  }
+
+    .author-overlay {
+    position: absolute; 
+    bottom: 0; 
+    opacity:0;
+    background-color: #e33c3c;
+    width: 100%;
+    transition: .5s ease;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 999;
+    margin-bottom: 25px;
+    box-shadow: 0px 3px 15px 3px black;
+
+    p{
+        color: #fff;
+        font-size: 23px;
+    }
+    span{
+        font-size: 1em;
+        color: #fff;
+
+    }
+
+    // h1 span{
+    //     font-size: 1.7em;
+    // }
+  }
+  
+  .book-wraps:hover .book-overlay{
+    opacity: 1;
+  }
+  .author-wraps:hover .author-overlay{
+    opacity: 1;
+  }
+
+  .author-wraps{
+    text-align: center;
+    padding: 0% 0;
+    position: relative;
+    max-width: auto;
+    margin:0px 40px 0px;
+  }
+
+.book-wraps{
+    text-align: center;
+    padding: 0% 0;
+    position: relative;
+    max-width: auto;
+    margin:0px 40px 0px;
+
+    img {
+        padding: 10px;
+        z-index: 1;
+        width: 80%;
+    }
+
+    button {
+        display: block;
+        margin: 10% auto;
+    }
+
+    h1 { 
+        span{
+        font-weight: bold;
+        color: #fff;
+    }
+    }
+
+    span {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: block;
+        line-height: 2;
+        color: #fafafa;
+        font-size: 1.6em;
+    }
+}
+
+.parallax-bottom {
+    background: url("../../../static/banner/parallax.jpg");
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+}
+
+.upper-main {
+    padding: 4% 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+
+    #wrapper-two-books {
+        margin: 5% 0;
+        gap: 3em;
+        max-width: 1500px;
+        margin: 0 auto;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .author-wraps{
+        height: 400px;
+        align-items: center;
+        text-align: center;
+
+    img{
+        width:260px ;
+        position: relative;
+        margin-top: 70px;
+        box-shadow: 0px .5px 10px .5px black;
+
+        }
+    }
+}
+
+.mid-main {
+    text-align: center;
+    padding: 4% 0;
+    // background: linear-gradient(180deg, #4d727a, #ffffff);
+    background: #fff;
+
+    h1 {
+        font-size: 3.5em;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .middle-params {
+        width: 100%;
+        margin: 0 auto !important;
+    }
+
+    #events2 {
+        padding-top: 60px;
+    }
+
+    li {
+        list-style-type: none;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    #logos-col {
+        margin: 6% 0;
+
+        .strattonlogo {
+            width: 90%;
+        }
+    }
+}
+
+.author-name-tag {
+    span {
+        color: #fff;
+        font-family: "augusta-free";
+        font-size: 2.2em;
+        text-transform: capitalize !important;
+    }
+}
+
+.author-tagline {
+    display: block;
+    margin-top: 1%;
+}
+
+/*Links*/
+.frontLinks {
+
+    display: flex;
+
+    li {
+        margin: 0 4px;
+        background: #2f5e95;
+        padding: 1px 14px;
+
+        a {
+            color: #fff !important;
+            font-size: 11px;
+        }
+    }
+}
+
+#disqus_thread {
+    padding: 33px;
+}
