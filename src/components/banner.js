@@ -13,7 +13,7 @@ const Banner = () => {
                             <div className="banner-text" id='bannercontent'>
 
                                 <h1>
-                                
+                                The Little <span>Red</span> House
                                 </h1>
 
                             </div>

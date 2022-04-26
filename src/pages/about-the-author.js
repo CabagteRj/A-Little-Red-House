@@ -22,6 +22,7 @@ const ATB = (props) => {
                         <div className="container-gt separator-line">
 
                             <div className="grid-two-columns" id="wrapper-two-books">
+                              
                                         <div className="author-img">
                                         <img src={DummyImg} alt="book-img" />
                                         </div>

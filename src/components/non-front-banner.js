@@ -2,20 +2,15 @@ import React from 'react'
 
 
 
-const NFB = (props) => {
+const NFB = () => {
 
     return (
         <>
             <section className="web-banner" >
                 <div className="container">
-                    {/* <div className="wrapper-ds">
-                        <span>
-                            {props.spanFirst}
-                        </span>
-                        <h1>
-                            {props.contextHeading}
-                        </h1>
-                    </div> */}
+                    <div className="wrapper-ds">
+
+                    </div>
                 </div>
             </section>
         </>

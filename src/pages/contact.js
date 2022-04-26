@@ -56,8 +56,6 @@ const Contact = (props) => {
                             <div className="columns" id="form-wrapper">
                                 <div className="column is-half">
 
-                                    
-
                                     <Inputs
                                         name="fullname"
                                         type="text" />
@@ -72,8 +70,8 @@ const Contact = (props) => {
 
                                     <input 
                                     type="hidden" 
-                                    name= "author"
-                                    value="Bruce Scott"/>
+                                    name= "author"/>
+                                    
                                     
                                     <Inputs
                                         name="email"

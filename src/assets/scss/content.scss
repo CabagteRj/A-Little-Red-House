@@ -65,7 +65,18 @@
     padding: 0% 0;
     position: relative;
     max-width: auto;
-    margin:0px 40px 0px;
+    margin:0px 80px 0px 0px;
+
+    h2{
+        span{
+            margin-left: 50px;
+        }
+        display: none;
+        color: #000;
+        margin: 30px 0px 0px 50px;
+    }
+
+
   }
 
 .book-wraps{
@@ -73,17 +84,24 @@
     padding: 0% 0;
     position: relative;
     max-width: auto;
-    margin:0px 40px 0px;
+    margin: 0px 0px 0px 110px;
 
     img {
         padding: 10px;
         z-index: 1;
-        width: 80%;
+        width: 90%;
+        // margin-left: 100px;
     }
 
     button {
         display: block;
-        margin: 10% auto;
+        margin: 7.5% auto;
+    }
+
+    h2{
+        display: none;
+        color: #000;
+        margin-top: 50px;
     }
 
     h1 { 
@@ -93,13 +111,20 @@
     }
     }
 
+    spam {
+        font-size: 1.2em;
+        color: #000;
+        font-weight: 500;
+    }
+
+
     span {
         text-transform: uppercase;
         letter-spacing: 2px;
         display: block;
-        line-height: 2;
+        line-height: 1.9;
         color: #fafafa;
-        font-size: 1.6em;
+        font-size: 2em;
     }
 }
 
@@ -135,9 +160,11 @@
         text-align: center;
 
     img{
-        width:260px ;
+        width:300px ;
+        height: auto;
         position: relative;
         margin-top: 70px;
+        margin-right: 40px;
         box-shadow: 0px .5px 10px .5px black;
 
         }

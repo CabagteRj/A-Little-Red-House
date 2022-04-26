@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import FrontBook from '../../static/books/sample.png'
+import FrontBook from '../../static/books/Nancybook.png'
 import Author from '../../static/author/NancyArmstrong.jpg';
 
 const MidBook = () => {
@@ -12,6 +12,7 @@ const MidBook = () => {
                     <div className="grid-two-columns" id="wrapper-two-books">
 
                         <div className="book-wraps">
+                        <h2><spam>Click Here to View</spam></h2>
                             <img src={FrontBook} alt="book-img" />
                                 <div className="book-overlay">
 
@@ -32,6 +33,7 @@ const MidBook = () => {
                         </div>
 
                         <div className="author-wraps">
+                        <h2><span>Click Here to View</span></h2>
                             <img src={Author} alt="author-img" />
                             <div className="author-overlay">
                                     <p>

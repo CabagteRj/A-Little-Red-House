@@ -233,6 +233,14 @@
     //     }
     // }
 
+    .author-wraps h2{
+        display: contents;
+    }
+
+    .book-wraps h2{
+        display: contents;
+    }
+
     .banner-text{
         .banner-line2 p{
             margin: 0px;
@@ -307,7 +315,7 @@
     .burger-nav {
         display: flex !important;
         justify-content: space-between;
-        background-color: rgba(68,75,84,.6588235294117647);
+        background: linear-gradient(180deg, #444444, transparent);
     }
 
     .grid-layouts {
@@ -392,6 +400,7 @@
     .book-wraps {
         order: 1;
         padding: 0;
+        margin: 0px 50px 0px 15px;
     }
 
     .content-wraps {
@@ -655,6 +664,7 @@
 
 @media (max-width :640px) and (max-height :360px) 
 {
+
     .container-gt .grid-child-elem #bannercontent{
 
         margin-left: 10em;
@@ -744,7 +754,7 @@
     } 
     .author-overlay{
         height: 380px;
-        margin-bottom: 50px;
+        margin: 0px 0px 0px 15px;
 
         span{
             font-size: 20px;
@@ -762,7 +772,7 @@
         img{
             height: 220px;
             max-width: 180px;
-
+            margin-left: 85px;
         }
     }
 
@@ -867,6 +877,7 @@
     .book-wraps {
         img {
             width: 100%;
+            // margin-right: 100px;
         }
     }
 
@@ -1117,7 +1128,10 @@
 
             .banner-text {
             h1{
-                font-size: 85px;
+                span{
+                    font-size: 60px;
+                }
+                font-size: 60px;
                 letter-spacing: 5px;
                 padding-top: 260px;
 
@@ -1140,8 +1154,14 @@
 }
 
 @media screen and (max-width: 450px) {
+
+    .author-overlay {
+        height: 380px;
+        margin: 0px 0px 35px 35px;
+    }
+
     .banner-section{
-        background-position: -20em;
+        background-position: -33em;
     }
 
     .article-section p{
@@ -1303,6 +1323,7 @@
 
 @media screen and (max-height: 450px){
 
+
     #author-contents h1 span{
 
         font-size:  1em;
@@ -1345,19 +1366,46 @@
 }
 
 @media screen and (max-width: 390px){
+
+    .author-wraps h2{
+        display: contents;
+        margin: 30px 0px 0px 50px;
+    }
+
+    .book-wraps h2{
+        display: contents;
+    }
+
+    .book-img img {
+        margin-top: 60px;
+    }
+
+    .author-img img {
+        margin-top: 60px;
+    }
+    .author-overlay {
+        height: 380px;
+        margin: 0px 0px 0px 25px;
+    }
+
     .container-gt .grid-child-elem .banner-text h1 {
         padding-top: 220px;
         letter-spacing: 1px;
     }
 
     .book-overlay p {
-        color: #000;
+        color: #fff;
         font-size: 19px;
     }
 
 }
 
 @media screen and (max-width: 375px){
+    .author-overlay {
+    height: 380px;
+    margin: 0px 0px 35px 20px;
+}
+
     .flex-container-fx {
         padding: 0 25px !important;
 
@@ -1435,7 +1483,7 @@
     body{
         p{
             padding: 0 0;
-            font-size: 18px;
+            font-size: 17px;
         }
     }
 

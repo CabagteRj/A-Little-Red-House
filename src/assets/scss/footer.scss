@@ -1,9 +1,6 @@
 .footer-section {
-//     background-image:url("../../../static/banner/footerbg.jpg");
-//     background-repeat: no-repeat;
-//    background-size: cover;
     padding: 3% 9%;
-    background: #fdfdfd;
+    background: #efddb2;
     margin: 0 auto;
 
     #footer-info {
@@ -164,7 +161,7 @@
 
     input[name="email"] {
         width: 45%;
-        padding: 2%;
+        padding: 1%;
         border: 1px solid #f1ebd5;
 
         &:active {

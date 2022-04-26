@@ -41,7 +41,7 @@
     position: absolute;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    background-color: #444b54a8;
+    background: linear-gradient(180deg, #444444, transparent);
 
     .item {
         flex-grow: 1; /* default 0 */

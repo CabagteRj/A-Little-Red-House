@@ -8,15 +8,16 @@ $prm-font-size : 12px;
 
 
 .web-banner {
-
     content: "";
-    height: 20vh;
+    background: url("../../../static/banner/bgbanner5.jpg") no-repeat;
+    position: relative;
+    height: 500px;
     width: 100%;
     top: 0;
     background-position: top;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    justify-content: center;
 
     span {
         letter-spacing: 0.67em;
@@ -51,12 +52,6 @@ $prm-font-size : 12px;
     // padding-bottom: 100px;
 }
 
-// .body-author-contents {
-
-//     justify-content: center;
-//     margin: 4em 0 !important;
-    
-// }
 
 
 .heading-quote {
@@ -158,7 +153,7 @@ $prm-font-size : 12px;
     margin-top: 11px !important;
     padding: 0.89em 0.246em !important;
     border: 1px solid #cccccc !important;
-    color: #636363ee !important;
+    color: #747272 !important;
     border-radius: 1px !important;
     width: 100% !important;
     max-width: 100%;
@@ -185,7 +180,7 @@ $prm-font-size : 12px;
 .contactMessage {
     font-size: 20px !important;
     margin-bottom: 24px !important;
-    color: #575757;
+    color: #000000;
 }
 
 .flexMainContainer {
@@ -383,14 +378,14 @@ $prm-font-size : 12px;
         font-weight: 100 !important;
         margin: 30px 0px;
         font-size: 13px;
-        color: #5d5d5d;
+        color: #000000;
 
         h5 {
             text-align: center;
             margin: 21px 0 !important;
             letter-spacing: 5px;
             text-transform: uppercase;
-            color: #dbdbdb;
+            color: #000000;
         }
     }
 }
@@ -430,8 +425,8 @@ button{
     background: none;
     border: 2px solid #fff;
     border-radius: 40px;
-    padding: 2% 10%;
-    margin-top: 5%;
+    padding: 1% 10%;
+    margin-top: 3%;
         
     a{
     text-transform: uppercase;
@@ -452,7 +447,7 @@ button{
     background: none;
     border: 2px solid #fff;
     border-radius: 40px;
-    padding: 2% 16%;
+    padding: 1% 16%;
     margin-top: 5%;
 
     a{
@@ -464,7 +459,7 @@ button{
     text-align: center;
     margin-bottom: 10px;
 img{
-    width: 500px;
+    width: 400px;
     
 }
 }
@@ -496,4 +491,7 @@ h1 span{
 font-size: 2.5em;
 font-weight: 900;
 }    
+}
+::placeholder{
+    color: rgb(31, 30, 30);
 }

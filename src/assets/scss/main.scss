@@ -62,7 +62,7 @@ body {
 h1,
 h2 {
     font-size: 1.6em;
-    color: #000!important;
+    color: #000;
 }
 
 h3,
@@ -81,7 +81,7 @@ a,
 qoute,
 span,
 blockquote {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 a {
@@ -89,13 +89,13 @@ a {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.4;
     margin: 2.2em 0;
     color: #000;
 }
 
 label {
-    color: #636262;
+    color: #000000;
 }
 
 
@@ -190,11 +190,9 @@ button {
 
 .container-gt {
     max-width: 100%;
-    margin: 0 5%;
+    margin: 0% 5%;
 }
 
-// .heading-quote{
-//     h4{
-//         margin: 0 5%;
-//     }
-// }
+.grid-two-columns{
+    height: 70vh;
+}
