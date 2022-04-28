@@ -1,6 +1,15 @@
 /*
 * Responsive Media Queries
 */
+@media screen and (min-width : 1925px){
+    .book-overlay {
+        margin-left: 150px;
+    }
+    .banner-text h1{
+        font-size: 8em;
+    }
+}
+
 @media screen and (max-width : 1366px){
     .container-gt{
         .grid-child-elem{
@@ -225,13 +234,7 @@
 
 @media screen and (max-width : 990px) {
 
-    // .book-overlay{
-    //     height: 450px;
 
-    //     p{
-    //         font-size: 19px;
-    //     }
-    // }
 
     .author-wraps h2{
         display: contents;
@@ -577,6 +580,8 @@
     }
 }
 
+
+
 @media (max-width :823px) and (max-height :411px){
 
     .wrapper-ds{
@@ -617,7 +622,7 @@
 
         h1{
 
-        padding-left: 300px;
+        padding-left: 0px;
 
     }
     }
@@ -684,7 +689,18 @@
     }
     }
 }
+
+@media screen and (min-width: 650px) {
+
+    .banner-section .one-grid-columns {
+        margin-right: 40px;
+    }
+
+}
+
 @media screen and (max-width: 650px) {
+
+
     
     .logo-img{
         width: 65px;
@@ -994,7 +1010,7 @@
         padding-top: 0px;
         }
         span{
-            font-size: 66px;
+            font-size: 55px;
         }
     }
     .banner-section {
@@ -1321,8 +1337,39 @@
     }
 }
 
+
+
+
+
 @media screen and (max-height: 450px){
 
+ 
+
+    .author-wraps h2 span {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .author-overlay {
+        margin-left: 40px;
+    }
+    .book-overlay {
+        margin-left: 15px;
+    }
+
+    .upper-main {
+        height: 200vh;
+    }
+
+    .upper-main .author-wraps img {
+        width: 200px;
+        margin-right: 60px;
+    }
+
+    .book-wraps img {
+        width: 50%;
+        margin-right: 40px;
+    }
 
     #author-contents h1 span{
 
@@ -1338,11 +1385,10 @@
          
          .grid-child-elem .banner-text {
          h1{
-             font-size: 70px;
+             font-size: 55px;
          letter-spacing: 0;
-         padding-top: 140px;
+         padding-top: 50px;
          line-height: 65px;
-         padding-right: 230px;
          
          .bannertxt{
              font-size: 80px;
@@ -1350,10 +1396,7 @@
          }
     
          }
-         span{
-             font-size: 20px;
-         }
- 
+      
          .banner-line2 p{
              font-size: 15px;
              margin: 0 0px;
